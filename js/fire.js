@@ -12,7 +12,7 @@ var bigbooms = [];
 
 document.getElementById("iframMusic").onload = function(){
     var music = document.getElementById("music");
-    music.src = 'music.mp3';
+    music.src = 'https://flash-sgchat-cn.oss-cn-beijing.aliyuncs.com/do.mp3';
     music.oncanplay = function(){
         music.play();
     };
